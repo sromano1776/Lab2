@@ -65,11 +65,6 @@ public enum eHandStrength {
 		this.strEvalMethod = EvalMethod;
 	}
 
-	private eHandStrength(final int handstrength, final String EvalMethod) {
-		this.iHandStrength = handstrength;
-		this.strEvalMethod = EvalMethod;
-	}
-
 	private int iHandStrength;
 	private String strEvalMethod;
 
